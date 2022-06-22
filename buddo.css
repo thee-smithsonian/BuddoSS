@@ -1,0 +1,182 @@
+.navbar{
+    background-color: rgb(102, 0, 170);
+    display: table; 
+    width: 100%;
+    overflow: hidden;
+}
+.bar{
+    color: white;
+    font-size: 18px;
+    text-decoration-line: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 14px 18px;
+    text-align: center;
+    position: inherit;
+    border-radius: 7px;
+}
+.bar:hover{
+    color: black;
+    background-color: red;
+}
+.ul{
+    list-style-type: square;
+    margin: 0;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    background-color: rgb(102, 0, 170)k;
+    font-size: 20px;
+}
+.list{
+    float: left;
+    display: table;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(102, 0, 170)k;
+}
+#active{
+    background-color: red;
+    color: black;
+}
+.ss{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.badge{
+    display: flex;
+}
+.image1{
+    margin-top: 7%;
+    height: 45%;
+    width: 45%;
+}
+.image2{
+    padding: 0 22%;
+    size: 100%;
+}
+.image3{
+    padding: 3% 24%;
+}
+.image4{
+    padding: 3% 15%;
+}
+.p{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p{
+    padding: 0% 5%;
+    font-size: 1.7vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 4vw;
+}
+h2{
+    margin-left: 5%;
+    font-size: 4vw;
+}
+.import{
+    text-align: center;
+    font-size: 1.7vw;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0% 5%;
+}
+footer{
+    background-color: rgb(145, 145, 145);
+    padding: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+.footer{
+    background-color: rgb(255, 208, 0);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+  .wrapper{
+    position: inherit;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 400px;
+    margin-bottom: 0;
+    margin-left: -20px;
+}
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgb(102, 0, 170);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 6%;
+}
+.input-fields,
+.msg{
+    width: 48%;
+}
+.input-fields .input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+.msg textarea{
+    height: 186px;
+}
+::-webkit-input-placeholder{
+    color: rgba(247, 243, 243, 0.493);
+}
+::-moz-input-placeholder{
+    color: rgba(247, 243, 243, 0.493);
+}
+::-ms-input-placeholder{
+    color: rgba(247, 243, 243, 0.493);
+}
+.send{
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+.send:hover{
+    color: black;
+    background: red;
+}
+@media screen and (max-width: 700px){
+    .contact-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height: 80px;
+    }
+    .input-fields,
+    .msg{
+        width: 100%;
+    }
+}
